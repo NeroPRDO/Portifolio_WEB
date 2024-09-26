@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #0d001c;
+    color: #fff;
+}
+
+.inteiro {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #710ebd;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.sec {
+    padding: 50px 0;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 950px;
+}
+
+.project-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.project {
+    width: 250px;
+}
+
+.project a {
+    display: inline-block;
+    background-color: #0077b5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+
+.project a:hover {
+    background-color: #710ebd;
+}
+
+.image-perfil-container {
+    margin-bottom: 20px;
+}
+
+.image-perfil {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 3px solid #0a3ce0;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.social-butn {
+    display: inline-block;
+    background-color: #0077b5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.social-butn:hover {
+    background-color: #710ebd;
+    transform: scale(1.2); 
+    transition: transform 0.3s ease; 
+}
+
+.project p {
+    white-space: nowrap;
+}
+
+
+.project a:hover {
+    transform: scale(1.2); 
+    transition: transform 0.3s ease; 
+}
+
+footer {
+    background-color: #710ebd;
+    color: white;
+    padding: 10px 0;
+}
